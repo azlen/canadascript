@@ -15,7 +15,7 @@ window.onload = function(){
 			if(inner[e].match(/.*=.* eh\?/)){
 				var varname = inner[e].match(/.+=/)[0].replace(/ |=/g,'');
 				var t = varname+' = '+inner[e].match(/=.+ /)[0].replace(/ |=/g,'')+';\n';
-				if(variables.contains(varname)){
+				if(variables.indexOf(varname) != -1){
 					script+=t;
 				}else{
 					variables+=varname+' ';
