@@ -1,9 +1,5 @@
 window.onload = function(){
-	var XFooProto = Object.create(HTMLElement.prototype);
-
-	var XFoo = document.registerElement('custom-element', {prototype: XFooProto});
-	document.body.appendChild(new XFoo());
-
+    
 	var list = document.querySelectorAll('script[type="text/canadian"]');
 
 	for(var i = 0; i < list.length; i++){
