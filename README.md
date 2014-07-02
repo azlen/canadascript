@@ -106,7 +106,7 @@ This calls the code inside 10 times.
 
 `10` is the number of times to iterate
 
-`n` is the iteration counter (in this case it goes from 0 to 9)
+`n` is the iteration counter (in this case it goes from 0 to 9)... Not required to be `n`, could be `i`, `and`, `an`, or anything else you want it to be.
 
 This for loop is equivalent to this javascript for loop:
 ```
@@ -114,3 +114,4 @@ for(n = 0; n < 10; n++){
   //code goes here
 }
 ```
+
